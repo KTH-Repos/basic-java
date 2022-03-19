@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=SieveTest
+comment0.text=\n\ Test\ class\ the\ Sieve\ class.\n\n\ @author\ Tomas\n\ @version\ 2020-11-11\n
+comment1.params=
+comment1.target=void\ setUp()
+comment10.params=
+comment10.target=void\ isPrimeExceptionWhenNumberIs2Pow28()
+comment2.params=
+comment2.target=void\ isPrimeTrueWhenNumberIsTwo()
+comment3.params=
+comment3.target=void\ isPrimeTrueWhenNumberIsPrime()
+comment4.params=
+comment4.target=void\ isPrimeFalseWhenNumberIsComposite()
+comment5.params=
+comment5.target=void\ isPrimeWorksWhenPassedIncrementingValues()
+comment6.params=
+comment6.target=void\ isPrimeExceptionWhenNumberIsOne()
+comment7.params=
+comment7.target=void\ isPrimeExceptionWhenNumberIsMinusTen()
+comment8.params=
+comment8.target=void\ isPrimeFalseWhenNumberIs2Pow26()
+comment9.params=
+comment9.target=void\ isPrimeExceptionWhenNumberIs2Pow26Plus1()
+numComments=11

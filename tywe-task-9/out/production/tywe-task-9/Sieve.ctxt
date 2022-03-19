@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Sieve
+comment0.text=\n\ Implementation\ of\ the\ Sieve\ of\ Eratosthenes\ algorithm\ for\ checking\ if\ a\n\ number\ is\ prime\ or\ not.\ The\ implementation\ is\ lacking\ in\ error-checking\n\ and\ optimization,\ and\ needs\ some\ patching\ up\!\n\n\ @author\ Tomas\n\ @version\ 2020-11-11\n
+comment1.params=number
+comment1.target=boolean\ isPrime(int)
+comment1.text=\n\ Check\ if\ a\ number\ is\ prime\ or\ not\!\n\ <p>\n\ Note\ that\ prime[n]\ denotes\ the\ primality\ of\ number\ n.\n\n\ @param\ number\ An\ integer\ value\ to\ be\ checked\ for\ primality.\n\ @return\ true\ if\ number\ is\ prime,\ false\ otherwise.\n
+comment2.params=number
+comment2.target=void\ exceptionIfIllegalArg(int)
+comment3.params=number
+comment3.target=boolean[]\ sieve(int)
+numComments=4

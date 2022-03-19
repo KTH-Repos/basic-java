@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=RandomTester
+comment0.text=\n\ Write\ a\ description\ of\ class\ RandomTester\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=RandomTester()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ RandomTester\n
+comment2.params=
+comment2.target=void\ printOneRandom()
+comment2.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\n
+comment3.params=howmany
+comment3.target=void\ printMultiRandom(int)
+comment4.params=
+comment4.target=void\ throwDice()
+comment5.params=
+comment5.target=void\ getResponse()
+comment6.params=Min\ Max
+comment6.target=int\ randInRangeMinMax(int,\ int)
+numComments=7

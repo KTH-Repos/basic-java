@@ -1,0 +1,6 @@
+Jason, USA, 4
+James, UK, 5
+Erik, Sweden, 7
+Celine, Sweden, 8
+Kobe, USA, 6
+Sara, Sweden, 3

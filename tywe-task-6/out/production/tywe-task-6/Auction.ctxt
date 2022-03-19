@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Auction
+comment0.text=\n\ A\ simple\ model\ of\ an\ auction.\n\ The\ auction\ maintains\ a\ list\ of\ lots\ of\ arbitrary\ length.\n\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling.\n\ @version\ 2016.02.29\n
+comment1.params=
+comment1.target=Auction()
+comment1.text=\n\ Create\ a\ new\ auction.\n
+comment2.params=description
+comment2.target=void\ enterLot(java.lang.String)
+comment2.text=\n\ Enter\ a\ new\ lot\ into\ the\ auction.\n\ @param\ description\ A\ description\ of\ the\ lot.\n
+comment3.params=
+comment3.target=void\ showLots()
+comment3.text=\n\ Show\ the\ full\ list\ of\ lots\ in\ this\ auction.\n
+comment4.params=lotNumber\ bidder\ value
+comment4.target=void\ makeABid(int,\ Person,\ long)
+comment4.text=\n\ Make\ a\ bid\ for\ a\ lot.\n\ A\ message\ is\ printed\ indicating\ whether\ the\ bid\ is\n\ successful\ or\ not.\n\n\ @param\ lotNumber\ The\ lot\ being\ bid\ for.\n\ @param\ bidder\ The\ person\ bidding\ for\ the\ lot.\n\ @param\ value\ \ The\ value\ of\ the\ bid.\n
+comment5.params=
+comment5.target=void\ close()
+comment5.text=\ public\ Lot\ getLot(int\ lotNumber)\n\ \ \ \ {\n\ \ \ \ \ \ \ \ if((lotNumber\ >\=\ 1)\ &&\ (lotNumber\ <\ nextLotNumber))\ {\n\ \ \ \ \ \ \ \ \ \ \ \ //\ The\ number\ seems\ to\ be\ reasonable.\n\ \ \ \ \ \ \ \ \ \ \ \ Lot\ selectedLot\ \=\ lots.get(lotNumber\ -\ 1);\n\ \ \ \ \ \ \ \ \ \ \ \ //\ Include\ a\ confidence\ check\ to\ be\ sure\ we\ have\ the\n\ \ \ \ \ \ \ \ \ \ \ \ //\ right\ lot.\n\ \ \ \ \ \ \ \ \ \ \ \ if(selectedLot.getNumber()\ \!\=\ lotNumber)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println("Internal\ error\:\ Lot\ number\ "\ +\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ selectedLot.getNumber()\ +\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "\ was\ returned\ instead\ of\ "\ +\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lotNumber);\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ Don't\ return\ an\ invalid\ lot.\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ selectedLot\ \=\ null;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ return\ selectedLot;\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ else\ {\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("Lot\ number\:\ "\ +\ lotNumber\ +\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "\ does\ not\ exist.");\n\ \ \ \ \ \ \ \ \ \ \ \ return\ null;\n\ \ \ \ \ \ \ \ }\n}
+comment6.params=
+comment6.target=java.util.ArrayList\ getUnsold()
+comment7.params=lotNumber
+comment7.target=Lot\ getLot(int)
+comment8.params=number
+comment8.target=Lot\ removeLot(int)
+comment8.text=\n\ Remove\ the\ lot\ with\ the\ given\ lot\ number.\n\ @param\ number\ The\ number\ of\ the\ lot\ to\ be\ removed.\n\ @return\ The\ Lot\ with\ the\ given\ number,\ or\ null\ if\n\ there\ is\ no\ such\ lot.\n
+numComments=9
